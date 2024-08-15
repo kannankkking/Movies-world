@@ -1,0 +1,930 @@
+*{
+    background-color: black;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    
+    
+}
+.card{
+width: 310px;
+background-color: rgb(255, 255, 255);
+padding: 10px;
+height: 550px;
+display: inline-block;
+text-align: center;
+
+}
+.card__img{
+width: 300px;
+height: 300px;
+}
+.card__tittle{
+    background-color: #fff;
+color: rgb(19, 18, 18);
+}
+.card__desc{
+    background-color: #fff;
+color: rgb(3, 3, 3);
+}
+.card__button{
+background: transparent;
+color: #000000;
+outline: none;
+border: 2px solid blue;
+padding: 2px;
+border-radius: 5px;
+
+}
+.card__button--red{
+border:2px solid red;
+}
+.card__button:hover{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+.card1{
+width: 310px;
+background-color: rgb(255, 255, 255);
+padding: 10px;
+height: 550px;
+display: inline-block;
+text-align: center;
+}
+.card1__img{
+width: 300px;
+height: 300px;
+}
+.card1__tittle{
+    background-color: #fff;
+    color: rgb(3, 3, 3);
+}
+.card1__desc{
+    background-color: #fff;
+    color: rgb(3, 3, 3);
+}
+.card1__button{
+background: transparent;
+color: #000000;
+outline: none;
+border: 2px solid blue;
+padding: 2px;
+border-radius: 5px;
+}
+.card1__button--red{
+border:2px solid red;
+}
+.card1__button:hover{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+.card2{
+width: 310px;
+background-color: rgb(247, 242, 242);
+padding: 10px;
+height: 550px;
+display: inline-block;
+text-align: center;
+}
+.card2__img{
+width: 300px;
+height: 300px;
+}
+.card2__tittle{
+    background-color: #fff;
+    color: rgb(3, 3, 3);
+}
+.card2__desc{
+    background-color: #fff;
+    color: rgb(3, 3, 3);
+}
+.card2__button{
+background: transparent;
+color: #000000;
+outline: none;
+border: 2px solid blue;
+padding: 2px;
+border-radius: 5px;
+}
+.card2__button--red{
+border:2px solid red;
+}
+.card2__button:hover{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+.card2__button:hover{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+
+/* card3 */
+
+.card3{
+    width: 310px;
+    background-color: rgb(247, 242, 242);
+    padding: 10px;
+    height: 550px;
+    display: inline-block;
+    text-align: center;
+    }
+    .card3__img{
+    width: 300px;
+    height: 300px;
+    }
+    .card3__tittle{
+        background-color: #fff;
+        color: rgb(3, 3, 3);
+    }
+    .card3__desc{
+        background-color: #fff;
+        color: rgb(3, 3, 3);
+    }
+    .card3__button{
+    background: transparent;
+    color: #000000;
+    outline: none;
+    border: 2px solid blue;
+    padding: 2px;
+    border-radius: 5px;
+    }
+    .card3__button--red{
+    border:2px solid red;
+    }
+    .card3__button:hover{
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        outline: none;
+    }
+    
+
+    /* card4 */
+    .card4{
+        width: 310px;
+        background-color: rgb(247, 242, 242);
+        padding: 10px;
+        height: 550px;
+        display: inline-block;
+        text-align: center;
+        }
+        .card4__img{
+        width: 300px;
+        height: 300px;
+        }
+        .card4__tittle{
+            background-color: #fff;
+            color: rgb(3, 3, 3);
+        }
+        .card4__desc{
+            background-color: #fff;
+            color: rgb(3, 3, 3);
+        }
+        .card4__button{
+        background: transparent;
+        color: #000000;
+        outline: none;
+        border: 2px solid blue;
+        padding: 2px;
+        border-radius: 5px;
+        }
+        .card4__button--red{
+        border:2px solid red;
+        }
+        .card4__button:hover{
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            outline: none;
+        }
+        
+        /* card5 */
+
+        .card5{
+            width: 310px;
+            background-color: rgb(247, 242, 242);
+            padding: 10px;
+            height: 550px;
+            display: inline-block;
+            text-align: center;
+            }
+            .card5__img{
+            width: 300px;
+            height: 300px;
+            }
+            .card5__tittle{
+                background-color: #fff;
+                color: rgb(3, 3, 3);
+            }
+            .card5__desc{
+                background-color: #fff;
+                color: rgb(3, 3, 3);
+            }
+            .card5__button{
+            background: transparent;
+            color: #000000;
+            outline: none;
+            border: 2px solid blue;
+            padding: 2px;
+            border-radius: 5px;
+            }
+            .card5__button--red{
+            border:2px solid red;
+            }
+            .card5__button:hover{
+                background-color: #000000;
+                color: #fff;
+                border: none;
+                outline: none;
+            }
+            /* card6 */
+            .card6{
+                width: 310px;
+                background-color: rgb(247, 242, 242);
+                padding: 10px;
+                height: 550px;
+                display: inline-block;
+                text-align: center;
+                }
+                .card6__img{
+                width: 300px;
+                height: 300px;
+                }
+                .card6__tittle{
+                    background-color: #fff;
+                    color: rgb(3, 3, 3);
+                }
+                .card6__desc{
+                    background-color: #fff;
+                    color: rgb(3, 3, 3);
+                }
+                .card6__button{
+                background: transparent;
+                color: #000000;
+                outline: none;
+                border: 2px solid blue;
+                padding: 2px;
+                border-radius: 5px;
+                }
+                .car6__button--red{
+                border:2px solid red;
+                }
+                .card6__button:hover{
+                    background-color: #000000;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                }
+                /* card7 */
+                .card7{
+                    width: 310px;
+                    background-color: rgb(247, 242, 242);
+                    padding: 10px;
+                    height: 550px;
+                    display: inline-block;
+                    text-align: center;
+                    }
+                    .card7__img{
+                    width: 300px;
+                    height: 300px;
+                    }
+                    .card7__tittle{
+                        background-color: #fff;
+                        color: rgb(3, 3, 3);
+                    }
+                    .card7__desc{
+                        background-color: #fff;
+                        color: rgb(3, 3, 3);
+                    }
+                    .card7__button{
+                    background: transparent;
+                    color: #000000;
+                    outline: none;
+                    border: 2px solid blue;
+                    padding: 2px;
+                    border-radius: 5px;
+                    }
+                    .card7__button--red{
+                    border:2px solid red;
+                    }
+                    .card7__button:hover{
+                        background-color: #000000;
+                        color: #fff;
+                        border: none;
+                        outline: none;
+                    }
+                    /* card8 */
+                       .card8{
+                        width: 310px;
+                        background-color: rgb(247, 242, 242);
+                        padding: 10px;
+                        height: 550px;
+                        display: inline-block;
+                        text-align: center;
+                        }
+                        .card8__img{
+                        width: 300px;
+                        height: 300px;
+                        }
+                        .card8__tittle{
+                            background-color: #fff;
+                            color: rgb(3, 3, 3);
+                        }
+                        .card8__desc{
+                            background-color: #fff;
+                            color: rgb(3, 3, 3);
+                        }
+                        .card8__button{
+                        background: transparent;
+                        color: #000000;
+                        outline: none;
+                        border: 2px solid blue;
+                        padding: 2px;
+                        border-radius: 5px;
+                        }
+                        .card8__button--red{
+                        border:2px solid red;
+                        }
+                        .card8__button:hover{
+                            background-color: #000000;
+                            color: #fff;
+                            border: none;
+                            outline: none;
+                        }
+                        /* card9 */
+                        .card9{
+                            width: 310px;
+                            background-color: rgb(247, 242, 242);
+                            padding: 10px;
+                            height: 550px;
+                            display: inline-block;
+                            text-align: center;
+                            }
+                            .card9__img{
+                            width: 300px;
+                            height: 300px;
+                            }
+                            .card9__tittle{
+                                background-color: #fff;
+                                color: rgb(3, 3, 3);
+                            }
+                            .card9__desc{
+                                background-color: #fff;
+                                color: rgb(3, 3, 3);
+                            }
+                            .card9__button{
+                            background: transparent;
+                            color: #000000;
+                            outline: none;
+                            border: 2px solid blue;
+                            padding: 2px;
+                            border-radius: 5px;
+                            }
+                            .card9__button--red{
+                            border:2px solid red;
+                            }
+                            .card9__button:hover{
+                                background-color: #000000;
+                                color: #fff;
+                                border: none;
+                                outline: none;
+                            }
+                            /* card10 */
+                            .card10{
+                                width: 310px;
+                                background-color: rgb(247, 242, 242);
+                                padding: 10px;
+                                height: 550px;
+                                display: inline-block;
+                                text-align: center;
+                                }
+                                .card10__img{
+                                width: 300px;
+                                height: 300px;
+                                }
+                                .card10__tittle{
+                                    background-color: #fff;
+                                    color: rgb(3, 3, 3);
+                                }
+                                .card10__desc{
+                                    background-color: #fff;
+                                    color: rgb(3, 3, 3);
+                                }
+                                .card10__button{
+                                background: transparent;
+                                color: #000000;
+                                outline: none;
+                                border: 2px solid blue;
+                                padding: 2px;
+                                border-radius: 5px;
+                                }
+                                .card10__button--red{
+                                border:2px solid red;
+                                }
+                                .card10__button:hover{
+                                    background-color: #000000;
+                                    color: #fff;
+                                    border: none;
+                                    outline: none;
+                                }
+                                /* card11 */
+                                .card11{
+                                    width: 310px;
+                                    background-color: rgb(247, 242, 242);
+                                    padding: 10px;
+                                    height: 550px;
+                                    display: inline-block;
+                                    text-align: center;
+                                    }
+                                    .card11__img{
+                                    width: 300px;
+                                    height: 300px;
+                                    }
+                                    .card11__tittle{
+                                        background-color: #fff;
+                                        color: rgb(3, 3, 3);
+                                    }
+                                    .card11__desc{
+                                        background-color: #fff;
+                                        color: rgb(3, 3, 3);
+                                    }
+                                    .card11__button{
+                                    background: transparent;
+                                    color: #000000;
+                                    outline: none;
+                                    border: 2px solid blue;
+                                    padding: 2px;
+                                    border-radius: 5px;
+                                    }
+                                    .card11__button--red{
+                                    border:2px solid red;
+                                    }
+                                    .card11__button:hover{
+                                        background-color: #000000;
+                                        color: #fff;
+                                        border: none;
+                                        outline: none;
+                                    }
+                                    /* card12 */
+                                    .card12{
+                                        width: 310px;
+                                        background-color: rgb(247, 242, 242);
+                                        padding: 10px;
+                                        height: 550px;
+                                        display: inline-block;
+                                        text-align: center;
+                                        }
+                                        .card12__img{
+                                        width: 300px;
+                                        height: 300px;
+                                        }
+                                        .card12__tittle{
+                                            background-color: #fff;
+                                            color: rgb(3, 3, 3);
+                                        }
+                                        .card12__desc{
+                                            background-color: #fff;
+                                            color: rgb(3, 3, 3);
+                                        }
+                                        .card12__button{
+                                        background: transparent;
+                                        color: #000000;
+                                        outline: none;
+                                        border: 2px solid blue;
+                                        padding: 2px;
+                                        border-radius: 5px;
+                                        }
+                                        .card12__button--red{
+                                        border:2px solid red;
+                                        }
+                                        .card12__button:hover{
+                                            background-color: #000000;
+                                            color: #fff;
+                                            border: none;
+                                            outline: none;
+                                        }
+      /* card13 */
+      .card13{
+        width: 310px;
+        background-color: rgb(247, 242, 242);
+        padding: 10px;
+        height: 550px;
+        display: inline-block;
+        text-align: center;
+        }
+        .card13__img{
+        width: 300px;
+        height: 300px;
+        }
+        .card13__tittle{
+            background-color: #fff;
+            color: rgb(3, 3, 3);
+        }
+        .card13__desc{
+            background-color: #fff;
+            color: rgb(3, 3, 3);
+        }
+        .card13__button{
+        background: transparent;
+        color: #000000;
+        outline: none;
+        border: 2px solid blue;
+        padding: 2px;
+        border-radius: 5px;
+        }
+        .card13__button--red{
+        border:2px solid red;
+        }
+        .card13__button:hover{
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            outline: none;
+        }
+        /* card14 */
+        .card14{
+            width: 310px;
+            background-color: rgb(247, 242, 242);
+            padding: 10px;
+            height: 550px;
+            display: inline-block;
+            text-align: center;
+            }
+            .card14__img{
+            width: 300px;
+            height: 300px;
+            }
+            .card14__tittle{
+                background-color: #fff;
+                color: rgb(3, 3, 3);
+            }
+            .card14__desc{
+                background-color: #fff;
+                color: rgb(3, 3, 3);
+            }
+            .card14__button{
+            background: transparent;
+            color: #000000;
+            outline: none;
+            border: 2px solid blue;
+            padding: 2px;
+            border-radius: 5px;
+            }
+            .card14__button--red{
+            border:2px solid red;
+            }
+            .card14__button:hover{
+                background-color: #000000;
+                color: #fff;
+                border: none;
+                outline: none;
+            }
+                   /* card15 */
+          .card15{
+             width: 310px;
+             background-color: rgb(247, 242, 242);
+             padding: 10px;
+            height: 550px;
+           display: inline-block;
+                                            text-align: center;
+                                            }
+                                            .card15__img{
+                                            width: 300px;
+                                            height: 300px;
+                                            }
+                                            .card15__tittle{
+                                                background-color: #fff;
+                                                color: rgb(3, 3, 3);
+                                            }
+                                            .card15__desc{
+                                              background-color: #fff;
+                                                color: rgb(3, 3, 3);
+                                            }
+                                            .card15__button{
+                                            background: transparent;
+                                            color: #000000;
+                                            outline: none;
+                                            border: 2px solid blue;
+                                            padding: 2px;
+                                            border-radius: 5px;
+                                            }
+                                            .card15__button--red{
+                                            border:2px solid red;
+                                            }
+                                            .card15__button:hover{
+                                                background-color: #000000;
+                                                color: #fff;
+                                                border: none;
+                                                outline: none;
+                                            }
+        /* card16 */
+        .card16{
+            width: 310px;
+            background-color: rgb(247, 242, 242);
+            padding: 10px;
+            height: 550px;
+            display: inline-block;
+            text-align: center;
+            }
+            .card16__img{
+            width: 300px;
+            height: 300px;
+            }
+            .card16__tittle{
+                background-color: #fff;
+                color: rgb(3, 3, 3);
+            }
+            .card16__desc{
+                background-color: #fff;
+                color: rgb(3, 3, 3);
+            }
+            .card16__button{
+            background: transparent;
+            color: #000000;
+            outline: none;
+            border: 2px solid blue;
+            padding: 2px;
+            border-radius: 5px;
+            }
+            .card16__button--red{
+            border:2px solid red;
+            }
+            .card16__button:hover{
+                background-color: #000000;
+                color: #fff;
+                border: none;
+                outline: none;
+            }
+            /* card17 */
+            .card17{
+                width: 310px;
+                background-color: rgb(247, 242, 242);
+                padding: 10px;
+                height: 550px;
+                display: inline-block;
+                text-align: center;
+                }
+                .card17__img{
+                width: 300px;
+                height: 300px;
+                }
+                .card17__tittle{
+                    background-color: #fff;
+                    color: rgb(3, 3, 3);
+                }
+                .card17__desc{
+                    background-color: #fff;
+                    color: rgb(3, 3, 3);
+                }
+                .card17__button{
+                background: transparent;
+                color: #000000;
+                outline: none;
+                border: 2px solid blue;
+                padding: 2px;
+                border-radius: 5px;
+                }
+                .card17__button--red{
+                border:2px solid red;
+                }
+                .card17__button:hover{
+                    background-color: #000000;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                }
+                       /* card18 */
+            .card18{
+                width: 310px;
+                background-color: rgb(247, 242, 242);
+                padding: 10px;
+                height: 550px;
+                display: inline-block;
+                text-align: center;
+                }
+                .card18__img{
+                width: 300px;
+                height: 300px;
+                }
+                .card18__tittle{
+                    background-color: #fff;
+                    color: rgb(3, 3, 3);
+                }
+                .card18__desc{
+                    background-color: #fff;
+                    color: rgb(3, 3, 3);
+                }
+                .card18__button{
+                background: transparent;
+                color: #000000;
+                outline: none;
+                border: 2px solid blue;
+                padding: 2px;
+                border-radius: 5px;
+                }
+                .card18__button--red{
+                border:2px solid red;
+                }
+                .card18__button:hover{
+                    background-color: #000000;
+                    color: #fff;
+                    border: none;
+                    outline: none;
+                }
+            
+    @media screen and (max-width:600px) {
+        .container{
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 100px;
+           padding: 20px;
+            /* justify-content: start; */
+            overflow: hidden;
+        }
+        .title{
+            margin-left: 150px;
+        }
+        .card{
+            width: 150px;
+            height: 700px;
+        }
+        .card__img{
+            width:150px;
+            
+        }
+        .card1{
+            width: 150px;
+            height: 700px;
+        }
+        .card1__img{
+            width:150px;
+            
+        }
+
+    
+        .card2{
+            width: 150px;
+            height: 700px;
+        }
+        .card2__img{
+            width:150px;
+            
+        }
+
+        .card3{
+            width: 150px;
+            height: 700px;
+        }
+        .card3__img{
+            width:150px;
+            
+        }
+
+        .card4{
+            width: 150px;
+            height: 700px;
+        }
+        .card4__img{
+            width:150px;
+            
+        }
+
+        .card5{
+            width: 150px;
+            height: 700px;
+        }
+        .card5__img{
+            width:150px;
+            
+        }
+
+        .card6{
+            width: 150px;
+            height: 700px;
+        }
+        .card6__img{
+            width:150px;
+            
+        }
+
+        .card7{
+            width: 150px;
+            height: 700px;
+        }
+        .card7__img{
+            width:150px;
+            
+        }
+
+        .card8{
+            width: 150px;
+            height: 700px;
+        }
+        .card8__img{
+            width:150px;
+            
+        }
+
+        .card9{
+            width: 150px;
+            height: 700px;
+        }
+        .card9__img{
+            width:150px;
+            
+        }
+
+        .card10{
+            width: 150px;
+            height: 700px;
+        }
+        .card10__img{
+            width:150px;
+            
+        }
+
+        .card11{
+            width: 150px;
+            height: 700px;
+        }
+        .card11__img{
+            width:150px;
+            
+        }
+
+        .card12{
+            width: 150px;
+            height: 700px;
+        }
+        .card12__img{
+            width:150px;
+            
+        }
+
+        .card13{
+            width: 150px;
+            height: 700px;
+        }
+        .card13__img{
+            width:150px;
+            
+        }
+
+        .card14{
+            width: 150px;
+            height: 700px;
+        }
+        .card14__img{
+            width:150px;
+            
+        }
+
+        .card15{
+            width: 150px;
+            height: 700px;
+        }
+        .card15__img{
+            width:150px;
+            
+        }
+
+        .card16{
+            width: 150px;
+            height: 700px;
+        }
+        .card16__img{
+            width:150px;
+            
+        }
+
+        .card17{
+            width: 150px;
+            height: 700px;
+        }
+        .card17__img{
+            width:150px;
+            
+        }
+       
+    }
